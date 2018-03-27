@@ -1,18 +1,17 @@
-# vue-vcode-simple
+# vue-vcode
 
-> A Vue.js project
+> 使用vue.js封装的一个二维码组件
 
-## Build Setup
+## 使用步骤
 
 ``` bash
-# install dependencies
-npm install
+# 首先安装插件
+npm install --save-dev vcode
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 然后引入
+import vcode from 'vcode'
 
-# build for production with minification
-npm run build
+# 最后进行使用
+<vcode></vcode>
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
